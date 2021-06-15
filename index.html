@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body{ background-color: yellow;}
+p1,p2,p3{ font-family: 'Times New Roman', Times, serif;}
+p1,p2,p3{color: rgb(0,0,255);margin: 40px;}
+h4{font-family: Arial, Helvetica, sans-serif;}
+h4{text-align:justify;}
+th{background-color: blue;color: white;}
+input[type-text], select{width: 100%; padding:12px 20px;margin: 8px 0;
+display: inline-block;border: 1px solid blue;border-radius: 4px;box-sizing: border-box;}
+input[type-submit]{width: 100%;background-color: blue;color: white;
+padding: 14px 20px;margin: 8px 0;border: none;border-radius: 4px;cursor: pointer;}
+input[type-submit]:hover{background-color: blue;}
+div{border-radius: 5px;background-color: white;padding: 20px;}
+<title>Mi Pagina Personal</title>
+</style>
+</head>
+<body>
+  <center> <p1> Sebastian Mejia </p1></center> 
+   <p2> Biografia</p2>
+   <p2> Favoritos</p2>
+   <p3> Platos </p3>
+   <p3> Pasatiempos </p3>
+   <p3> Canciones </p3>
+   <p3> Juego</p3>
+   <p3> Pelicula </p3>
+   <marquee> <p1> Sebastian </p1></marquee>
+   <img width="150px" height="150px"  src="img/foto 1.JPG" >
+   <br>
+   <h4> Me llamo sebastian naci en 2002 y me considero alguien tranquilo</h4>
+   <hr>
+   <br>
+   <li> Comida </li>
+   <ul>
+      <li> Pizza </li>
+      <li> Ladopsomo </li>
+      <li> Arroz Chino </li>
+   </ul>
+   <br>
+   <li> Pasatiempos </li>
+<ol> 
+   <li> Videojuegos </li>
+   <li> Anime </li>
+   <li> Peliculas </li>
+</ol>
+<h1> Canciones </h1>
+<table border="3">
+   <tr>
+      <th> Genero </th>
+      <th> Canción </th>
+      <th> Autor </th>
+      <th> Audio </th>
+   </tr>
+   <tr> 
+<td> Rock </td>
+<td> Human Paradox </td> 
+<td> Dynasty</td>
+<td> <audio controls autoplay> 
+   <source src="audio/Human paradox.mp4">
+</audio></td>
+   </tr>
+   <tr>
+      <td> Pop Music</td>
+      <td> I believe </td>
+      <td> Shoji Meguro</td>
+   </tr>
+   <tr>
+      <td> Rock </td>
+      <td> Courtesy Call</td>
+      <td> Thousand Foot Krutch</td>
+   </tr>
+</table>
+<img width="150px" height="150px" src="img2/Persona 5 royal">
+<br>
+<a href="dirección de la pagina del juego">nombre del juego</a>
+<br>
+<img width="150px" height="150px" src="img3/Mugen Train.jpg">
+<br>
+<h5> Para mayor información</h5>
+<div> 
+<form action="/action_page.php">
+<label for="fname">Nombre</label>
+<input type="text" id="fname" name="nombre" placeholder="Tu nombre"
+<label for="correo">Correo</label>
+<input type="text" id="correo" name="correo" placeholder="Tu correo"
+<label for="asunto">Asunto</label>
+<input type="text" id="asunto" name="asunto" placeholder="Tu Asunto"
+<label for="mensaje">Mensaje</label>
+<input type="text" id="mensaje" name="mensaje" placeholder="Tu Mensaje"
+<br>
+<input type="submit" value="Enviar">
+</form>
+</div>
+</body>
+</html>
